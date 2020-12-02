@@ -14,7 +14,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('--------------')
-    channel = client.get_channel('747404374585770025')
+    channel = client.get_channel(747404374585770025)
     await channel.send('準備中')
 
 @client.event
